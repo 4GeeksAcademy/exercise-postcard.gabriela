@@ -1,0 +1,50 @@
+body {
+	background: black;
+}
+
+p {
+	color: rgb(23, 23, 31);
+}
+
+.postcard {
+	/*Tus estilos van aquí*/
+	background: white;
+	width: 600px;
+	margin: auto;
+}
+.postcard-header {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.postcard-body {
+	display: flex;
+	justify-content: space-between;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.postcard-body-left {
+	width: 250px;
+}
+.postcard-body-rigth {
+	width: 250px;
+}
+
+p {
+	font-size: 15px;
+}
+.postcard-footer {
+	text-align: center;
+	margin-top: 20px;
+}
+button {
+	background-color: #8e8181;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
