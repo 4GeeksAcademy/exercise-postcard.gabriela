@@ -1,5 +1,7 @@
 body {
 	background: black;
+	margin: 0;
+	padding: 0;
 }
 
 p {
@@ -9,15 +11,18 @@ p {
 .postcard {
 	/*Tus estilos van aquí*/
 	background: white;
-	width: 600px;
+	width: 500px;
 	margin: auto;
+	padding: 20px;
 }
 .postcard-header {
-	height: 100px;
 	display: flex;
 	justify-content: space-between;
 }
-
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
 .postcard-body {
 	display: flex;
 	justify-content: space-between;
